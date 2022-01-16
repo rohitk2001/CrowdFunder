@@ -97,7 +97,7 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
               <div className="d-grid">
-                <Link to = "/Hospilality">
+                <Link to = "/Hospitality">
                     <Button style={{backgroundColor:'#072227'}}>Explore</Button>
                 </Link>  
                 </div>

@@ -21,8 +21,8 @@ function App() {
         <Navigator />
         <Routes>
           <Route exact path = "/Technology" element = {<Technology/>}/>
-          <Route exact path = "/Hospitality" element = {<Hospitality/>}/>
           <Route exact path = "/Food" element = {<Food/>}/>
+          <Route exact path = "/Hospitality" element = {<Hospitality/>}/>
           <Route exact path = "/Agriculture" element = {<Agriculture/>}/>
           <Route exact path = "/Pharmaceutical" element = {<Pharmaceutical/>}/>
           <Route exact path = "/Manufacturing" element = {<Manufacturing/>}/>
