@@ -1,4 +1,5 @@
 import {Button,Card,CardGroup} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 const Category = () => {
     return (
       <div>
@@ -13,7 +14,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-grid">
-                <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                <Link to = "/Pharmaceutical">
+                  <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                </Link>
                 </div>
               </Card.Footer>
             </Card>
@@ -27,7 +30,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-grid">
-                <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                <Link to = "/Technology">
+                  <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                </Link>
                 </div>
               </Card.Footer>
             </Card>
@@ -41,7 +46,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer> 
                 <div className="d-grid">
-                  <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  <Link to = "/Agriculture">
+                    <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  </Link>
                 </div>
               </Card.Footer>
             </Card>
@@ -57,7 +64,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-grid">
-                <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  <Link to = "/Food">
+                    <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  </Link>
                 </div>
               </Card.Footer>
             </Card>
@@ -71,7 +80,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
                 <div className="d-grid">
-                  <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  <Link to = "/Manufacturing">
+                    <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                  </Link>
                 </div>
               </Card.Footer>
             </Card>
@@ -86,7 +97,9 @@ const Category = () => {
               </Card.Body>
               <Card.Footer>
               <div className="d-grid">
-                <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                <Link to = "/Hospilality">
+                    <Button style={{backgroundColor:'#072227'}}>Explore</Button>
+                </Link>  
                 </div>
               </Card.Footer>
             </Card>
